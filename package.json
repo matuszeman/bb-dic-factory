@@ -1,5 +1,5 @@
 {
-  "name": "bb-dic-factory",
+  "name": "@kapitchi/bb-dic-factory",
   "version": "0.1.0",
   "description": "Factories for common services",
   "main": "src/index.js",
@@ -29,6 +29,10 @@
     "es5": "babel src -d es5",
     "build": "npm run es5 && npm run docs"
   },
+  "files": [
+    "src",
+    "es5"
+  ],
   "author": "Matus Zeman <matus.zeman@gmail.com> (https://github.com/matuszeman)",
   "license": "MIT"
 }

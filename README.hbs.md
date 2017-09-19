@@ -5,12 +5,12 @@ Repository of common service factories.
 # Installation
 
 ```
-npm install matuszeman/bb-service-factory
+npm install @kapitchi/bb-dic-factory
 ```
 
 # Usage
 
-For ES5 compatible implementation use `require('bb-service-factory/es5/FACTORY')`.
+TODO
 
 # API
 
