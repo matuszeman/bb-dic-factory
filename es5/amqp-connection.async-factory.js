@@ -4,7 +4,7 @@ var amqplib = require('amqplib');
 var Joi = require('joi');
 
 /**
- * @example dic.asyncFactory('amqpConnection', require('bb-dic-factory/src/amqp-connection.async-factory'));
+ * @example dic.asyncFactory('amqpConnection', require('@kapitchi/bb-dic-factory/src/amqp-connection.async-factory'));
  * @requires amqplib
  * @param {Object} amqpConnectionOpts
  * @param {String} amqpConnectionOpts.url
