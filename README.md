@@ -21,7 +21,7 @@ TODO
 <dd></dd>
 <dt><a href="#mongoConnection">mongoConnection(mongoConnectionOpts)</a> ⇒ <code>Promise</code></dt>
 <dd></dd>
-<dt><a href="#seneca">seneca(senecaOpts)</a> ⇒ <code>Promise</code></dt>
+<dt><a href="#senecaAsyncFactory">senecaAsyncFactory(senecaOpts)</a> ⇒ <code>Promise</code></dt>
 <dd></dd>
 </dl>
 
@@ -38,7 +38,7 @@ TODO
 
 **Example**  
 ```js
-dic.asyncFactory('amqpConnection', require('bb-dic-factory/src/amqp-connection.async-factory'));
+dic.asyncFactory('amqpConnection', require('@kapitchi/bb-dic-factory/src/amqp-connection.async-factory'));
 ```
 <a name="mongoConnection"></a>
 
@@ -53,11 +53,11 @@ dic.asyncFactory('amqpConnection', require('bb-dic-factory/src/amqp-connection.a
 
 **Example**  
 ```js
-dic.asyncFactory('mongoConnection', require('bb-dic-factory/src/mongo-connection.async-factory'));
+dic.asyncFactory('mongoConnection', require('@kapitchi/bb-dic-factory/src/mongo-connection.async-factory'));
 ```
-<a name="seneca"></a>
+<a name="senecaAsyncFactory"></a>
 
-## seneca(senecaOpts) ⇒ <code>Promise</code>
+## senecaAsyncFactory(senecaOpts) ⇒ <code>Promise</code>
 **Kind**: global function  
 **Requires**: <code>module:seneca</code>  
 
@@ -67,7 +67,7 @@ dic.asyncFactory('mongoConnection', require('bb-dic-factory/src/mongo-connection
 
 **Example**  
 ```js
-dic.asyncFactory('seneca', require('bb-dic-factory/src/seneca.async-factory'));
+dic.asyncFactory('seneca', require('@kapitchi/bb-dic-factory/src/seneca.async-factory'));
 ```
 
 # Development

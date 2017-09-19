@@ -2,7 +2,7 @@ const {MongoClient}= require('mongodb');
 const Joi = require('joi');
 
 /**
- * @example dic.asyncFactory('mongoConnection', require('bb-dic-factory/src/mongo-connection.async-factory'));
+ * @example dic.asyncFactory('mongoConnection', require('@kapitchi/bb-dic-factory/src/mongo-connection.async-factory'));
  * @requires mongodb
  * @param mongoConnectionOpts
  * @param {String} mongoConnectionOpts.url

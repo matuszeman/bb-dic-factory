@@ -1,12 +1,12 @@
-import Seneca from 'seneca';
+const Seneca = require('seneca');
 
 /**
- * @example dic.asyncFactory('seneca', require('bb-dic-factory/src/seneca.async-factory'));
+ * @example dic.asyncFactory('seneca', require('@kapitchi/bb-dic-factory/src/seneca.async-factory'));
  * @requires seneca
  * @param {Object} senecaOpts
  * @returns {Promise}
  */
-function seneca(senecaOpts) {
+function senecaAsyncFactory(senecaOpts) {
   return new Promise((resolve, reject) => {
     const seneca = Seneca(senecaOpts).ready((err) => {
       if (err) {
@@ -17,4 +17,4 @@ function seneca(senecaOpts) {
   });
 }
 
-module.exports = seneca;
+module.exports = senecaAsyncFactory;
